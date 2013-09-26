@@ -36,7 +36,7 @@ fi
 # Do ask 
 if [ "THREADS" = "clean" ]
 then
-  THREADS="12"
+  THREADS="16"
 fi
 
 # Some jerks
@@ -99,7 +99,7 @@ else
    lunch "aospx_$DEVICE-userdebug";
 
    echo -e ""
-   echo -e "${bldblu}Start building ProjectX ROM. ${txtrst}"
+   echo -e "${bldblu}Start the Project-X ROM build. ${txtrst}"
 
    # Start Building like a bau5
    mka bacon TARGET_PRODUCT=aospx_$DEVICE
